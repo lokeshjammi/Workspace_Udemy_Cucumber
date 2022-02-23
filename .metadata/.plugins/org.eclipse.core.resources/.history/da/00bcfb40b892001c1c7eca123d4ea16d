@@ -1,0 +1,8 @@
+Feature: Application Login
+
+Scenario: Homepage default login
+
+Given User is on net banking landing page
+When User login with username and password
+Then Homepage need to be displayed
+And Make sure all the cards are displayed

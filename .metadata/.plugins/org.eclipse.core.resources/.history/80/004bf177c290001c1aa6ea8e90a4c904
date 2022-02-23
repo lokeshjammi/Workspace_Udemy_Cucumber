@@ -1,0 +1,4 @@
+Feature: Application Login
+
+Scenario: Homepage default login
+Given User is on landing page
